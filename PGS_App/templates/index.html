@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Team Assignment Tool{% endblock %}
+
+{% block content %}
+    <h1>Welcome to Engineering Team Assignment Tool</h1>
+    <p>Manage your Team Members and Team Allocation.</p>
+
+    <b>Current Options.....</b>
+    <br>
+    <a href="{% url 'pgs_all' %}" class="btn btn-primary">Personnel Gold Source</a>
+    <a href="{% url 'pgs_new' %}" class="btn btn-primary">New PGS</a>
+
+{% endblock %}
